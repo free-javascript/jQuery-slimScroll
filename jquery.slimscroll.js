@@ -336,7 +336,7 @@
           if (!releaseScroll) { e.returnValue = false; }
         }
 
-        //if element is allready hovered
+        //if element is allready hovered - call by adding in option mouseOver:true
         if(o.mouseOver){
           isOverPanel = true;
           showBar();
